@@ -9,3 +9,5 @@ Code has a number of tabs used to explore climate data from Toolik Field Station
 - Yearly summary tables
 - Comparison of two time slices
 - About the data used in the summaries
+
+Summaries were created by request of the Toolik Community by Amanda Young
