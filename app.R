@@ -38,7 +38,7 @@ ui<-fluidPage(
                                          wellPanel(sliderInput("range3", "Time Series 2", sep="", min=1988, max=2022, value = c(1988,2022))))),
                            p("Using the slider bars select the time intervals for the two periods of time you are interested in comparing. The climographs and hythergraph will update automatically."),
                            br(),
-                           h3(p("Climagraphs")),
+                           h3(p("Climographs")),
                            fluidRow(
                              splitLayout(cellWidths=c("50%", "50%"), 
                                          plotOutput("plot3"), plotOutput("plot4"))),
@@ -54,7 +54,7 @@ ui<-fluidPage(
                            h5(p("Climate Summaries are calculated from daily average temperatures and precipitation sums at Toolik Field Station from 1988 to 2022.")),
                            h5(p("The raw data for the analysis can be downloaded from the",a("Toolik Field Station website", href ="https://www.uaf.edu/toolik"),">", a("Environmental Data Center", href = "https://www.uaf.edu/toolik/edc/index.php")," > ",a("Meterological Data Query", href = "https://www.uaf.edu/toolik/edc/monitoring/abiotic/met-data-query.php"),". You will need to fill out our", a("Conditions of Use", href ="https://www.uaf.edu/toolik/edc/about/conditions-of-use.php")," prior to downloading the data.")),
                            h5(p("We hope you find these Climate Summaries interesting and/or useful.  Let Amanda Young at ayoung55@alaska.edu know if you have any comments or questions about the summaries")),
-                           p("The source code for this Shiny app will be available on GitHub in the near future."),
+                           p("The source code for this Shiny app is available on", a("GitHub", href = "https://github.com/amandabeayoung/Toolik-Climate-Summaries"),"."),
                   ),
                   id = "tabset"
       ),
